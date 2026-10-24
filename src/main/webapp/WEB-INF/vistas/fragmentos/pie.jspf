@@ -1,0 +1,8 @@
+<%! private static final String SISTEMA = "InfoManager System"; %>
+<% int anio = java.time.Year.now().getValue(); %>
+</main>
+<footer class="pie">
+    <p>&copy; <%= anio %> <%= SISTEMA %>, módulo de usuarios. SENA, Análisis y Desarrollo de Software.</p>
+</footer>
+</body>
+</html>
